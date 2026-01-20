@@ -32,6 +32,7 @@ curl -L -o "$MOD_NAME.gz" "$DOWNLOAD_URL"
 echo "正在解压并安装..."
 gunzip -f "$MOD_NAME.gz"
 chmod +x $MOD_NAME
+mkdir -p $BIN_PATH
 mv $MOD_NAME $BIN_PATH
 echo "解压安装成功...正在删除安装包"
 rm -f "$MOD_NAME.gz" > /dev/null 2>&1

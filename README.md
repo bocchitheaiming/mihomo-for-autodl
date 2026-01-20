@@ -36,8 +36,15 @@ export HTTPS_PROXY="http://127.0.0.1:7890"
 ### 运行代理
 运行`source launch_mihomo`，若出现异常，且在`$LOG_DIR`的日志文件中发现缺少文件的错误，建议开启autodl github加速服务并在 https://github.com/MetaCubeX/meta-rules-dat/releases 下载(缺什么下什么)。关闭代理后重启即可。
 
+在`$CONF_DIR`中，完整的代理文件应如下:
+
+<img src = "./assests/example_img_2.png">
+
 ### 关闭代理
 运行`source shutdown_mihomo.sh`。
+
+### 可视化面板
+转发`config.yaml`中`external-controller`的IP+端口，并访问: https://d.metacubex.one/#/overview 或 https://metacubex.github.io/metacubexd/#/overview 以使用GUI。
 
 ## License
 本项目遵循GPL-3.0 license。

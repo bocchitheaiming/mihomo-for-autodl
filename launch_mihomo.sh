@@ -18,6 +18,8 @@ echo "------------------------------------------"
 
 # 3. 直接运行 (不进入后台)
 # -d 指定配置目录 >写入日志 (2>&1 包括错误)
+mkdir -p $LOG_DIR
+touch $LOG_DIR/mihomo.log
 nohup "$BIN_PATH/$MOD_NAME" -d $CONF_DIR > "$LOG_DIR/mihomo.log" 2>&1 &
 
 echo "关闭 autodl 资源加速"
