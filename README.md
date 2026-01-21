@@ -44,7 +44,7 @@ export HTTPS_PROXY="http://127.0.0.1:7890"
 运行`source shutdown_mihomo.sh`。
 
 ### 可视化面板
-转发`config.yaml`中`external-controller`的IP+端口，并访问: https://d.metacubex.one/#/overview 或 https://metacubex.github.io/metacubexd/#/overview 以使用GUI。
+转发`config.yaml`中`external-controller`的IP+端口，并访问: https://d.metacubex.one/#/overview 或 https://yacd.metacubex.one/#/proxies 以使用GUI。
 
 ## License
 本项目遵循GPL-3.0 license。
