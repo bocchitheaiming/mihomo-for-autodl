@@ -15,11 +15,12 @@ mv env.conf.example env.conf
 运行`source install_mihomo.sh`:
 ```bash
 source install_mihomo.sh
+source ./env.conf
 ```
-若下载过程中出现网络问题，可以开启autodl对github的加速服务: `source etc/network_turbo`。
+若下载过程中出现网络问题，可以开启autodl对github的加速服务: `source /etc/network_turbo`。
 
 ### 修改代理配置
-进入`$CONF_DIR/config.ymal`，填入订阅信息。这里推荐直接从其它平台的代理上复制并替换全部。如:
+进入`$CONF_DIR/config.yaml`，填入订阅信息。这里推荐直接从其它平台的代理上复制并替换全部。如:
 <img src = "./assests/example_img_1.png">
 
 ### 修改系统配置
